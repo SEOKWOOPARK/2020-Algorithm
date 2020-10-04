@@ -32,7 +32,7 @@ function solution(number, k) {
     return stack.join("").substring(0, num_length-k);
 }
 
-
+// 큰 수 만들기 of 탐욕법
 // number는 "1924"처럼 문자열 안에 숫자가 붙어 있는 상황이다.
 // 하나의 간편한 팁을 알게 되었다.
 // String(숫자를 감싼 따옴표 문자열) => typeof는 문자열로 유지되면서
