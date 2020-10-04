@@ -29,7 +29,7 @@ function solution(n, lost, reserve){
 }
 
 
-// 탐욕법 문제
+// 체육복 of 탐욕법
 // (1) 잃어버린 사람, 여벌이 있는사람을 forEach를 통해 student 배열의 해당 인덱스에 true, false를 맵핑
 // (2) 여벌이 있다가 잃어버린 사람(false)의 해당 student 배열 값을 true로 고친다. 만약 false가 아니었다면 reserveTmp로 푸쉬
 // (3) 마지막으로 앞 뒤 학생이 체육복이 있는지 확인해서 빌려줄수 있으면 false인 학생을 true로 바꾼다. 단 앞사람이 잃어버린 경우 그 사람의 인덱스는 0이상.
