@@ -23,6 +23,7 @@ function solution(array, commands) {
     return answer;
 }
 
+// k 번쨰 수 of 정렬
 
 //commands 요소의 0,1 번째 기준으로 array를 자른 배열을
 //filtered 배열에 할당. 배열의 index는 0부터 시작이므로 commands[i][0]에서 하나를 빼준다. slice()는 두 번째 파라미터 전까지 자르기 때문에 그대로 commands[i][1].
