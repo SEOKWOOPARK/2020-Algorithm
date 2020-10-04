@@ -13,7 +13,7 @@ function solution(numbers){
     
     if( answer[0] !== '0'){
         return answer = answer.reduce( (sum, current) => sum + current);
-        // return answer.join('');
+        // return answer.join(''); 조금 더 간략한 리턴
     }
     else{
         return '0';
@@ -21,7 +21,7 @@ function solution(numbers){
     
 }
 
-
+// 가장 큰 수 of 정렬
 // numbers의 원소들을 문자열로 바꿔서 answer에 넣는다.
 // alignment라는 함수를 이용해서 sort()를 정의할 수 있다.
 // 이 부분이 문제 해결의 절반 이상. 3과 30의 케이스를 보면 330과 303의 대소를 비교하기 위해서 (b+a) - (a+b)로 반환값을 얻는다.
