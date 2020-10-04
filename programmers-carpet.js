@@ -26,6 +26,7 @@ function solution(brown, yellow) {
     
     return overLap;
     
+// 카펫 of 완전탐색
 // 1) 주어진 yellow 타일이 배치될 수 있는 경우를 모두 찾기 위해 if문으로 들어간 후, 가능한 모든 경우의 조합들을 answer 배열에 차례대로 넣는다. 중복이 발생할 수 있다.
 // 2) 사실상 yellow가 1~2장일 땐 답이 정해져 있으므로 else문에 처리.
 // 3) brown타일이 붙여진 최종 카펫의 가로의 길이 세로의 길이는 answer 원소들(yellow 타일들의 조합)에 2를 더 해주는 구조.
