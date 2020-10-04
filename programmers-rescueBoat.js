@@ -21,7 +21,7 @@ function solution(people, limit) {
     return answer;
 }
 
-
+// 구명보트 of 탐욕법
 // 문제에 주어진 조건에 맞게 사람들을 조합하기 위해 boat 배열을 만든다. 그리고 인풋으로 들어온 people 배열을 내림차순으로 정렬한다.
 // 1명이 됐든 2명이 됐든 people 배열에 있는 인원들을 빼서 boat 배열에 넣을 것이기 때문에 while 반복문의 조건을 people.length>0로 설정해서 null이 될 때까지 루프를 돌린다.
 
