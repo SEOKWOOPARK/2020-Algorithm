@@ -18,7 +18,7 @@ function solution(numbers, target) {
     return answer;
 }
 
-
+// DFS 문제 => 타겟넘버
 // numbers의 각 요소가 +,-가 되는 경우로 분리해서 생각
 // 순환 호출(재귀 함수)로 +,- 케이스를 분류
 // recur 함수의 재귀를 통해 k라는 숫자를 0부터 numbers.length - 1 까지 진행
